@@ -1,0 +1,63 @@
+*{margin: 0; padding: 0;}
+html, body{
+	height: 100%;
+}
+.body{
+	//background: -webkit-linear-gradient(#3498db, #fff); /* For Safari 5.1 to 6.0 */
+    //background: -o-linear-gradient(#3498db, #fff); /* For Opera 11.1 to 12.0 */
+    //background: -moz-linear-gradient(#3498db, #fff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#9b59b6, #fff); /* Standard syntax */
+    //background-size: cover;
+}
+.custom-navbar-default{
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #eee;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: #eee;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #eee;
+}
+
+.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.dropdown-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #eee;
+    white-space: nowrap;
+}
+.dropdown-menu{
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.welcome{
+	font-size: 80px;
+	color: #fff;
+	font-family: 'Raleway',sans-serif;
+	margin: 100px auto;
+}
